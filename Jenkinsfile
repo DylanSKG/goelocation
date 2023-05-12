@@ -20,12 +20,10 @@ pipeline {
             steps {
                 echo 'mvn test'
             }
-        }
-        stage('test') {
-            steps {
-                echo 'test'
+        
+        
                 
-            }
+            
         }
         stage('deploy') {
                 echo 'deploy'
